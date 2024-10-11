@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html data-theme="light" class="page page--{{ title }}" {{#if isDev }} data-dev {{/if}}>
+  <head>
+    {{> layouts/head }}
+
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div class="content">
+      {{> layouts/header }}
+
+      <main>
+        <!-- example -->
+        <section class="example-section">
+          <div class="container">
+            <div class="example">
+              <div class="example__wrap">
+                <div class="example__header">
+                  <h1 class="example__title">
+                    {{ title }}
+                  </h1>
+
+                  {{> components/test firstName="Vitaliy" secondName="Toropov" src="../img/svg/done.svg" }}
+                </div>
+
+                <div class="example__body">
+                  <div style="width: 100%; max-width: 600px" class="test-picture">
+                    <picture class="picture-ratio">
+                      <source srcset="https://via.placeholder.com/400x200.webp" type="image/webp" />
+                      <img src="https://via.placeholder.com/400x200.png" width="400" height="200" />
+                    </picture>
+                  </div>
+                </div>
+
+                <div class="example__footer"> </div>
+              </div>
+            </div>
+          </div>
+          <!-- ./ End of container -->
+        </section>
+        <!-- ./ End of example -->
+      </main>
+
+      {{> layouts/footer }}
+    </div>
+
+    {{> layouts/modals }}
+    {{> layouts/tooltips }}
+  </body>
+</html>
