@@ -1,0 +1,140 @@
+.header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.26);
+  padding: 19px 0;
+}
+@media (max-width: 1919px) {
+  .header {
+    padding: 1.8vw 0;
+  }
+}
+@media (max-width: 360px) {
+  .header {
+    padding: 2.22vw 0;
+  }
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .header__left {
+    flex: 1 1 auto;
+    margin-right: 5.47vw;
+  }
+}
+.header__desc {
+  margin-left: 24px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 600;
+}
+@media (max-width: 1919px) {
+  .header__desc {
+    margin-left: 1.25vw;
+    font-size: 1.09vw;
+  }
+}
+@media (max-width: 768px) {
+  .header__desc {
+    flex: 1 1 auto;
+    margin-left: 3.13vw;
+    font-size: 2.34vw;
+  }
+}
+@media (max-width: 360px) {
+  .header__desc {
+    display: none;
+  }
+}
+.header__media {
+  margin-left: 47px;
+}
+@media (max-width: 1919px) {
+  .header__media {
+    margin-left: 2.45vw;
+  }
+}
+@media (max-width: 360px) {
+  .header__media {
+    display: none;
+  }
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__number {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 21px;
+  font-weight: 700;
+}
+@media (max-width: 1919px) {
+  .header__number {
+    font-size: 1.09vw;
+  }
+}
+@media (max-width: 768px) {
+  .header__number {
+    font-size: 2.08vw;
+  }
+}
+@media (max-width: 360px) {
+  .header__number {
+    font-size: 3.33vw;
+  }
+}
+.header__number a {
+  transition: all 0.3s ease 0s;
+}
+.header__number a:hover {
+  opacity: 0.7;
+}
+.header__number a:nth-child(2) {
+  display: inline-block;
+  margin-top: 4px;
+  transition: all 0.3s ease 0s;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.69;
+}
+@media (max-width: 1919px) {
+  .header__number a:nth-child(2) {
+    margin-top: 0.21vw;
+    font-size: 0.94vw;
+  }
+}
+.header__number a:nth-child(2):hover {
+  opacity: 0.42;
+}
+@media (max-width: 768px) {
+  .header__number a:nth-child(2) {
+    display: none;
+  }
+}
+.header__btn {
+  color: #ffffff;
+  margin-left: 43px;
+}
+@media (max-width: 1919px) {
+  .header__btn {
+    margin-left: 2.24vw;
+  }
+}
+@media (max-width: 768px) {
+  .header__btn {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */

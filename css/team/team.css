@@ -1,0 +1,137 @@
+.team {
+  background-color: #e8edf3;
+}
+@media (max-width: 768px) {
+  .team {
+    overflow: hidden;
+  }
+}
+.team__items {
+  margin: 0 12px;
+}
+@media (max-width: 1919px) {
+  .team__items {
+    margin: 0 -0.63vw;
+  }
+}
+@media (max-width: 768px) {
+  .team__items {
+    margin: 0 -1.56vw;
+  }
+}
+@media (max-width: 360px) {
+  .team__items {
+    margin: 8vw -3.61vw 0;
+  }
+}
+.team__items .swiper {
+  overflow: visible;
+}
+.team__items .swiper-slide {
+  padding: 0 12px;
+  height: auto;
+}
+@media (max-width: 1919px) {
+  .team__items .swiper-slide {
+    padding: 0 0.63vw;
+  }
+}
+@media (max-width: 768px) {
+  .team__items .swiper-slide {
+    padding: 0 1.56vw;
+  }
+}
+@media (max-width: 360px) {
+  .team__items .swiper-slide {
+    padding: 0 3.61vw;
+  }
+}
+.team__item {
+  flex: 0 1 20%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  overflow: hidden;
+  min-height: 100%;
+}
+@media (max-width: 1919px) {
+  .team__item {
+    border-radius: 0.78vw;
+  }
+}
+@media (max-width: 768px) {
+  .team__item {
+    border-radius: 1.95vw;
+  }
+}
+@media (max-width: 360px) {
+  .team__item {
+    border-radius: 4.95vw;
+  }
+}
+.team__img {
+  position: relative;
+  padding-top: 97.6%;
+}
+.team__img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team__name {
+  margin-top: 14px;
+  padding: 0 20px;
+  font-size: 19px;
+  color: #0575e6;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@media (max-width: 1919px) {
+  .team__name {
+    margin-top: 0.73vw;
+    padding: 0 1.04vw;
+    font-size: 0.99vw;
+  }
+}
+@media (max-width: 768px) {
+  .team__name {
+    margin-top: 1.82vw;
+    font-size: 2.6vw;
+    padding: 0 2.73vw;
+  }
+}
+@media (max-width: 360px) {
+  .team__name {
+    font-size: 5.56vw;
+    margin-top: 4.82vw;
+    padding: 0 5.73vw;
+  }
+}
+.team__desc {
+  margin-top: 7px;
+  padding: 0 20px 35px;
+  font-size: 14px;
+  color: #222222;
+}
+@media (max-width: 1919px) {
+  .team__desc {
+    margin-top: 0.36vw;
+    padding: 0 1.04vw 1.82vw;
+    font-size: 0.73vw;
+  }
+}
+@media (max-width: 768px) {
+  .team__desc {
+    font-size: 1.82vw;
+    padding: 0 2.73vw 4.56vw;
+  }
+}
+@media (max-width: 360px) {
+  .team__desc {
+    font-size: 3.61vw;
+    padding: 4vw 5.73vw 4.56vw;
+  }
+}/*# sourceMappingURL=team.css.map */

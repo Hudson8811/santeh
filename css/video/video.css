@@ -1,0 +1,97 @@
+.video-section {
+  margin-top: 132px;
+}
+@media (max-width: 1919px) {
+  .video-section {
+    margin-top: 9.88vw;
+  }
+}
+@media (max-width: 360px) {
+  .video-section {
+    margin-top: 19.88vw;
+  }
+}
+
+.video-container {
+  position: relative;
+  border-radius: 45px;
+  overflow: hidden;
+}
+@media (max-width: 1919px) {
+  .video-container {
+    border-radius: 2.34vw;
+  }
+}
+@media (max-width: 768px) {
+  .video-container {
+    border-radius: 3.34vw;
+  }
+}
+
+#player-container {
+  position: relative;
+  padding-top: 50%;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  #player-container {
+    padding-top: 62%;
+  }
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#overlayImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  width: 132px;
+  height: 132px;
+}
+@media (max-width: 1919px) {
+  #playButton {
+    width: 6.88vw;
+    height: 6.88vw;
+  }
+}
+@media (max-width: 768px) {
+  #playButton {
+    width: 17.19vw;
+    height: 17.19vw;
+  }
+}
+#playButton img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=video.css.map */

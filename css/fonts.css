@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/ManropeBold/ManropeBold.eot");
+    src:
+        local("ManropeBold"),
+        local("../fonts/ManropeBold/ManropeBold"),
+        url("../fonts/ManropeBold/ManropeBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ManropeBold/ManropeBold.woff") format("woff"),
+        url("../fonts/ManropeBold/ManropeBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/ManropeRegular/ManropeRegular.eot");
+    src:
+        local("ManropeRegular"),
+        local("../fonts/ManropeRegular/ManropeRegular"),
+        url("../fonts/ManropeRegular/ManropeRegular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ManropeRegular/ManropeRegular.woff") format("woff"),
+        url("../fonts/ManropeRegular/ManropeRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Manrope";
+    src: url("../fonts/ManropeLight/ManropeLight.eot");
+    src:
+        local("ManropeLight"),
+        local("../fonts/ManropeLight/ManropeLight"),
+        url("../fonts/ManropeLight/ManropeLight.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ManropeLight/ManropeLight.woff") format("woff"),
+        url("../fonts/ManropeLight/ManropeLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNovaExtrabold/ProximaNovaExtrabold.eot");
+    src:
+        local("ProximaNovaExtrabold"),
+        local("../fonts/ProximaNovaExtrabold/ProximaNovaExtrabold"),
+        url("../fonts/ProximaNovaExtrabold/ProximaNovaExtrabold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ProximaNovaExtrabold/ProximaNovaExtrabold.woff") format("woff"),
+        url("../fonts/ProximaNovaExtrabold/ProximaNovaExtrabold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src:
+        local("ProximaNovaBold"),
+        local("../fonts/ProximaNovaBold/ProximaNovaBold"),
+        url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+        url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNovaSemibold/ProximaNovaSemibold.eot");
+    src:
+        local("ProximaNovaSemibold"),
+        local("../fonts/ProximaNovaSemibold/ProximaNovaSemibold"),
+        url("../fonts/ProximaNovaSemibold/ProximaNovaSemibold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ProximaNovaSemibold/ProximaNovaSemibold.woff") format("woff"),
+        url("../fonts/ProximaNovaSemibold/ProximaNovaSemibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src:
+        local("ProximaNovaRegular"),
+        local("../fonts/ProximaNovaRegular/ProximaNovaRegular"),
+        url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+        url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot");
+    src:
+        local("ProximaNovaLight"),
+        local("../fonts/ProximaNovaLight/ProximaNovaLight"),
+        url("../fonts/ProximaNovaLight/ProximaNovaLight.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/ProximaNovaLight/ProximaNovaLight.woff") format("woff"),
+        url("../fonts/ProximaNovaLight/ProximaNovaLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
