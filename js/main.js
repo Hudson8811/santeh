@@ -127,9 +127,6 @@ $(document).ready(function () {
       800
     );
   });
-});
-
-$(document).ready(function () {
   $(".overlay").on("click", function () {
     var overlay = $(this);
     var video = overlay.siblings("#player-container").find("video")[0];
@@ -138,4 +135,5 @@ $(document).ready(function () {
 
     video.play();
   });
+  $('[type="tel"]').inputmask("+7 (999) 999 99 99");
 });
