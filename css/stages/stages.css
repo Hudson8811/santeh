@@ -89,13 +89,14 @@
 }
 @media (max-width: 768px) {
   .item-stages__column {
-    border-bottom: 0.13vw solid #0575e6;
+    border-bottom: 0.33vw solid #0575e6;
     border-radius: 1.95vw;
     padding: 7vw 7.81vw 5.8vw 6.19vw;
   }
 }
 @media (max-width: 360px) {
   .item-stages__column {
+    border-bottom: 0.63vw solid #0575e6;
     padding: 7vw 7.81vw 5.8vw 6.19vw;
   }
 }
@@ -128,12 +129,12 @@
 }
 .item-stages__title {
   font-size: 33px;
-  font-weight: 400;
+  font-weight: 600;
   margin-top: 38px;
 }
 @media (max-width: 1919px) {
   .item-stages__title {
-    font-size: 0.99vw;
+    font-size: 1.72vw;
     margin-top: 1.98vw;
   }
 }
@@ -251,7 +252,6 @@
   .item-stages__btn {
     width: 51.43vw;
     height: 8.2vw;
-    margin-top: 3vw;
   }
 }
 @media (max-width: 360px) {

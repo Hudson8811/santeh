@@ -39,7 +39,7 @@
 }
 @media (max-width: 768px) {
   .intro__content {
-    max-width: 57.31vw;
+    max-width: 97.31vw;
   }
 }
 @media (max-width: 360px) {
@@ -149,7 +149,7 @@
     margin-top: 10.25vw;
     margin-left: 0;
     background-color: transparent;
-    max-width: 90%;
+    max-width: 54%;
     line-height: 135%;
   }
 }

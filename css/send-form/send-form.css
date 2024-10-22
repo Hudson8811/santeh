@@ -198,6 +198,11 @@
     padding: 0.52vw 1.04vw;
   }
 }
+@media (max-width: 768px) {
+  .send-form__item input {
+    padding: 0.52vw 3.04vw;
+  }
+}
 @media (max-width: 360px) {
   .send-form__item input {
     padding: 1vw 5vw;

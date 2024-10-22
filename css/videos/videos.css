@@ -33,6 +33,7 @@
 @media (max-width: 768px) {
   .video-list {
     flex-direction: column;
+    gap: 1.73vw;
   }
 }
 @media (max-width: 360px) {

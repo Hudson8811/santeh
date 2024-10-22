@@ -92,12 +92,12 @@ var teamswiper = new Swiper(".team-swiper", {
 });
 
 if ($(window).width() < 769) {
-  getfreeswiperdesk.slideTo(1); 
+  getfreeswiperdesk.slideTo(1);
 }
 
-$(window).resize(function() {
+$(window).resize(function () {
   if ($(window).width() < 769) {
-    getfreeswiperdesk.slideTo(1); 
+    getfreeswiperdesk.slideTo(1);
   }
 });
 
@@ -129,7 +129,7 @@ $(document).ready(function () {
   });
 });
 
-var player1;
+/* var player1;
 var player2;
 var player3;
 var player4;
@@ -180,4 +180,14 @@ function onPlayerReady4(event) {
     $(this).fadeOut();
     event.target.playVideo();
   });
-}
+} */
+$(document).ready(function () {
+  $(".overlay").on("click", function () {
+    var overlay = $(this);
+    var video = overlay.siblings("#player-container").find("video")[0];
+
+    overlay.fadeOut();
+
+    video.play();
+  });
+});
