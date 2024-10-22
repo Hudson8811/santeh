@@ -9,6 +9,12 @@
   &__subtitle {
   }
   &__title {
+    @media (max-width: 768px){
+      padding: 0 9vw;
+    }
+    @media (max-width: 360px){
+        padding: 0;
+    }
   }
   &__container {
   }

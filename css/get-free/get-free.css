@@ -12,6 +12,11 @@
     margin-top: -2.08vw;
   }
 }
+@media (max-width: 768px) {
+  .get-free {
+    padding-top: 18.17vw;
+  }
+}
 @media (max-width: 360px) {
   .get-free {
     padding: 0 5.56vw;

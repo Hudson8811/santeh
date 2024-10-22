@@ -51,7 +51,7 @@
 @media (max-width: 768px) {
   .prices__row {
     padding: 6.54vw 5.93vw 2.86vw 5.93vw;
-    row-gap: 5.9vw;
+    row-gap: 7.9vw;
   }
 }
 .prices__item {
@@ -172,11 +172,13 @@
     margin-top: 5.4vw;
     padding: 2vw 0;
     margin: 8vw 6vw 0;
+    border: none;
   }
 }
 @media (max-width: 360px) {
   .prices__bottom {
-    margin-top: 8.33vw;
+    margin-top: 4.33vw;
+    height: 25vw;
   }
 }
 .prices__btn {

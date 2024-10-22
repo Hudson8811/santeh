@@ -129,58 +129,6 @@ $(document).ready(function () {
   });
 });
 
-/* var player1;
-var player2;
-var player3;
-var player4;
-
-function onYouTubeIframeAPIReady() {
-  player1 = new YT.Player("video1", {
-    events: {
-      onReady: onPlayerReady1,
-    },
-  });
-  player2 = new YT.Player("video2", {
-    events: {
-      onReady: onPlayerReady2,
-    },
-  });
-  player3 = new YT.Player("video3", {
-    events: {
-      onReady: onPlayerReady3,
-    },
-  });
-  player4 = new YT.Player("video4", {
-    events: {
-      onReady: onPlayerReady4,
-    },
-  });
-}
-
-function onPlayerReady1(event) {
-  $(".overlay1").on("click", function () {
-    $(this).fadeOut();
-    event.target.playVideo();
-  });
-}
-function onPlayerReady2(event) {
-  $(".overlay2").on("click", function () {
-    $(this).fadeOut();
-    event.target.playVideo();
-  });
-}
-function onPlayerReady3(event) {
-  $(".overlay3").on("click", function () {
-    $(this).fadeOut();
-    event.target.playVideo();
-  });
-}
-function onPlayerReady4(event) {
-  $(".overlay4").on("click", function () {
-    $(this).fadeOut();
-    event.target.playVideo();
-  });
-} */
 $(document).ready(function () {
   $(".overlay").on("click", function () {
     var overlay = $(this);

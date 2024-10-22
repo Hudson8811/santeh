@@ -16,7 +16,7 @@
   @media (max-width: 768px) {
     margin-top: -1.56vw;
     padding-top: 12.81vw;
-    padding-bottom: 5.63vw;
+    padding-bottom: 9.63vw;
     border-radius: 0 0 5.21vw 5.21vw;
   }
   @media (max-width: 360px) {
@@ -78,7 +78,7 @@
     }
     @media (max-width: 360px) {
       border-bottom: 0.63vw solid #0575e6;
-      padding: 7vw 7.81vw 5.8vw 6.19vw;
+      padding: 7vw 7vw 5.8vw 6.2vw;
     }
     &:hover {
       background-color: #e4e9ef;
@@ -139,7 +139,9 @@
     @media (max-width: 360px) {
       font-size: 3.61vw;
       margin-top: 11.94vw;
-      padding-right: 10vw;
+      padding-right: 0vw;
+      max-width: 100%!important;
+      margin-bottom: 7.24vw;
     }
     li {
       position: relative;
@@ -356,9 +358,9 @@
         width: 23.33vw;
       }
       @media (max-width: 360px){
-        bottom: 18vw;
-        width: 37.06vw;
-        height: 55.7vw;
+        bottom: 16vw;
+        width: 41.06vw;
+        height: 62.7vw;
       }
     }
   }

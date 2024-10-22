@@ -42,7 +42,7 @@
     }
     @media (max-width: 768px){
       padding: 6.54vw 5.93vw 2.86vw 5.93vw;
-      row-gap: 5.9vw;
+      row-gap: 7.9vw;
     }
   }
   &__item {
@@ -133,10 +133,11 @@
       margin-top: 5.4vw;
       padding: 2vw 0;
       margin: 8vw 6vw 0;
+      border: none;
     }
     @media (max-width: 360px){
-        margin-top: 8.33vw;
-
+        margin-top: 4.33vw;
+        height: 25vw;
     }
   }
   &__btn {

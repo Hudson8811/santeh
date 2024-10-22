@@ -21,7 +21,7 @@
   .stages {
     margin-top: -1.56vw;
     padding-top: 12.81vw;
-    padding-bottom: 5.63vw;
+    padding-bottom: 9.63vw;
     border-radius: 0 0 5.21vw 5.21vw;
   }
 }
@@ -97,7 +97,7 @@
 @media (max-width: 360px) {
   .item-stages__column {
     border-bottom: 0.63vw solid #0575e6;
-    padding: 7vw 7.81vw 5.8vw 6.19vw;
+    padding: 7vw 7vw 5.8vw 6.2vw;
   }
 }
 .item-stages__column:hover {
@@ -176,7 +176,9 @@
   .item-stages__text {
     font-size: 3.61vw;
     margin-top: 11.94vw;
-    padding-right: 10vw;
+    padding-right: 0vw;
+    max-width: 100% !important;
+    margin-bottom: 7.24vw;
   }
 }
 .item-stages__text li {
@@ -444,8 +446,8 @@
 }
 @media (max-width: 360px) {
   .item-stages:nth-child(4) .item-stages__digit {
-    bottom: 18vw;
-    width: 37.06vw;
-    height: 55.7vw;
+    bottom: 16vw;
+    width: 41.06vw;
+    height: 62.7vw;
   }
 }/*# sourceMappingURL=stages.css.map */

@@ -11,6 +11,16 @@
     padding-top: 10.29vw;
   }
 }
+@media (max-width: 768px) {
+  .works__title {
+    padding: 0 9vw;
+  }
+}
+@media (max-width: 360px) {
+  .works__title {
+    padding: 0;
+  }
+}
 .works__row {
   display: flex;
   flex-wrap: wrap;

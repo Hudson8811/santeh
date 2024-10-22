@@ -11,8 +11,8 @@
     padding-bottom: 4.69vw;
   }
   @media (max-width: 768px) {
-    margin-top: -35.9vw;
-    padding-top: 45.1vw;
+    margin-top: -20.9vw;
+    padding-top: 33.1vw;
     padding-bottom: 4.69vw;
     border-radius: 0 0 5.21vw 5.21vw;
   }
@@ -54,10 +54,13 @@
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    border-bottom: 3px solid #4FBA70;
     @media (max-width: 1919px) {
+      border-bottom: 0.18vw solid #4FBA70;
       border-radius: 0.78vw;
     }
     @media (max-width: 768px) {
+      border-bottom: 0.5vw solid #4FBA70;
       border-radius: 1.95vw;
     }
     * {
@@ -175,7 +178,7 @@
       padding-top: 4.52vw;
       padding-left: 5.95vw;
       padding-right: 7.42vw;
-      padding-bottom: 9.47vw;
+      padding-bottom: 6.47vw;
     }
     @media (max-width: 360px) {
       border-top: 0.13vw solid rgba($color: #000000, $alpha: 0.25);
