@@ -165,6 +165,7 @@
   opacity: 0.37;
   padding-left: 27px;
   margin-top: 11px;
+  line-height: 120%;
 }
 @media (max-width: 1919px) {
   .services__text {

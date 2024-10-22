@@ -156,6 +156,7 @@
   color: #202020;
   opacity: 0.85;
   margin-bottom: 43px;
+  line-height: 120%;
 }
 @media (max-width: 1919px) {
   .item-stages__text {

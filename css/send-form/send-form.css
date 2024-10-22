@@ -126,6 +126,7 @@
   font-size: 20px;
   color: #ffffff;
   max-width: 473px;
+  line-height: 120%;
 }
 @media (max-width: 1919px) {
   .send-form__text {

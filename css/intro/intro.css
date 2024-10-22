@@ -169,6 +169,7 @@
 .intro__text p {
   font-size: 19px;
   font-weight: 300;
+  line-height: 134%;
 }
 @media (max-width: 1919px) {
   .intro__text p {
