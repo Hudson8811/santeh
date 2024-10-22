@@ -156,11 +156,14 @@
 @media (max-width: 360px) {
   .intro__text {
     padding: 4.44vw;
+    margin: 0 -2.4vw;
     margin-top: 65vw;
     border-radius: 3.61vw;
     background-color: rgba(0, 0, 0, 0.11);
     line-height: 114%;
-    max-width: 100%;
+    max-width: 105%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 }
 .intro__text p {
