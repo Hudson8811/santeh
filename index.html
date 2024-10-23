@@ -253,34 +253,40 @@
               <div class="form-intro__subtitle">
                 Оставьте заявку, мы свяжемся с вами в ближайшее время
               </div>
-              <form action="#" class="form-intro__fields">
+              <form id="introForm" class="form-intro__fields" method="post" action="send_mail.php">
                 <div class="form-intro__item">
                   <input
                     class="form-intro__input general-input"
                     type="text"
+                    name="introname"
                     placeholder="Ваше имя"
+                    required
                   />
                 </div>
                 <div class="form-intro__item">
                   <input
                     class="form-intro__input general-input"
                     type="tel"
+                    name="introphone"
                     placeholder="Ваш телефон*"
+                    required
                   />
                 </div>
                 <div class="form-intro__item">
                   <input
                     class="form-intro__input general-input"
                     type="text"
+                    name="introcomment"
                     placeholder="Комментарий"
                   />
                 </div>
                 <div class="form-intro__item">
-                  <button class="form-intro__btn btn-green open-thankyou-popup">
+                  <button type="submit" class="form-intro__btn btn-green open-thankyou-popup">
                     Свяжитесь со мной
                   </button>
                 </div>
               </form>
+              
               <div class="form-intro__bottom">
                 Нажимая на кнопку «Свяжитесь со мной», вы автоматически
                 соглашаетесь
@@ -413,40 +419,43 @@
                     </div>
                   </div>
                 </div>
-                <form action="#" class="form-about__fields">
+                <form id="aboutForm" class="form-about__fields" method="post" action="send_mail_about.php">
                   <div class="form-about__item">
                     <input
                       class="form-about__input general-input"
                       type="text"
+                      name="aboutname"
                       placeholder="Ваше имя"
+                      required
                     />
                   </div>
                   <div class="form-about__item">
                     <input
                       class="form-about__input general-input"
                       type="tel"
+                      name="aboutphone"
                       placeholder="Ваш телефон"
+                      required
                     />
                   </div>
                   <div class="form-about__item">
                     <input
                       class="form-about__input general-input"
                       type="text"
+                      name="aboutcomment"
                       placeholder="Комментарий"
                     />
                   </div>
                   <div class="form-about__fields-bottom">
-                    <button
-                      class="form-about__fields-btn btn-green open-thankyou-popup"
-                    >
+                    <button type="submit" class="form-about__fields-btn btn-green open-thankyou-popup">
                       Оставить заявку
                     </button>
                     <div class="form-about__fields-text">
-                      Нажимая на кнопку «Свяжитесь со мной», вы автоматически
-                      соглашаетесь с политикой обработки персональных данных
+                      Нажимая на кнопку «Свяжитесь со мной», вы автоматически соглашаетесь с политикой обработки персональных данных
                     </div>
                   </div>
                 </form>
+                
               </div>
             </div>
           </div>
@@ -1132,28 +1141,31 @@
               <h2 class="send-form__title title-h2">
                 Отправьте контакты и получите бесплатную консультацию
               </h2>
-              <form action="#" class="send-form__form">
+              <form id="sendForm" class="send-form__form" method="post" action="send_mail_call.php">
                 <div class="send-form__text">
-                  Мы перезвоним вам в ближайшее время, ответим на все вопросы и
-                  рассчитаем стоимость работ
+                  Мы перезвоним вам в ближайшее время, ответим на все вопросы и рассчитаем стоимость работ
                 </div>
                 <div class="send-form__fields">
                   <div class="send-form__item">
                     <input
                       type="text"
                       class="general-input"
+                      name="sendname"
                       placeholder="Ваше имя"
+                      required
                     />
                   </div>
                   <div class="send-form__item">
                     <input
                       type="tel"
                       class="general-input"
+                      name="sendphone"
                       placeholder="Ваш телефон*"
+                      required
                     />
                   </div>
                   <div class="send-form__item">
-                    <button class="btn-gradient open-thankyou-popup">
+                    <button type="submit" class="btn-gradient open-thankyou-popup">
                       Отправить
                     </button>
                   </div>
@@ -1163,9 +1175,10 @@
                 </div>
                 <div class="send-form__text-bottom">
                   Нажимая на кнопку «Отправить», вы автоматически соглашаетесь c
-                  <a href="#">политикой обработки персональных данных</a>
+                  <a href="#">политикой обработки персональных данных</a>
                 </div>
               </form>
+              
             </div>
           </div>
         </section>
@@ -1675,36 +1688,46 @@
         <div class="popup-discuss__text">
           Оставьте свои контактные данные и мы свяжемся с вами в ближайшее время
         </div>
-        <form action="#" class="popup-discuss__form">
-          <div class="popup-discuss__filds">
-            <div class="popup-discuss__item">
-              <input type="text" class="general-input" placeholder="Ваше имя" />
-            </div>
+        <form id="discussForm" class="popup-discuss__form" method="post" action="send_mail_discuss.php">
+          <div class="popup-discuss__fields">
             <div class="popup-discuss__item">
               <input
                 type="text"
                 class="general-input"
+                name="discussname"
+                placeholder="Ваше имя"
+                required
+              />
+            </div>
+            <div class="popup-discuss__item">
+              <input
+                type="tel"
+                class="general-input"
+                name="discussphone"
                 placeholder="Ваш телефон*"
+                required
               />
             </div>
             <div class="popup-discuss__item">
               <input
                 type="text"
                 class="general-input"
+                name="discusscomment"
                 placeholder="Комментарий"
               />
             </div>
             <div class="popup-discuss__item">
-              <button class="popup-discuss__btn btn-gradient">
+              <button type="submit" class="popup-discuss__btn btn-gradient">
                 Свяжитесь со мной
               </button>
             </div>
           </div>
           <div class="popup-discuss__text-bottom">
-            Нажимая на кнопку «Свяжитесь со мной», вы автоматически соглашаетесь
-            с <a href="#">политикой обработки персональных данных</a>
+            Нажимая на кнопку «Свяжитесь со мной», вы автоматически соглашаетесь с 
+            <a href="#">политикой обработки персональных данных</a>
           </div>
         </form>
+        
         <div class="popup-discuss__footer">
           <div class="popup-discuss__footer-title">
             Или свяжитесь с нами любым удобным для вас способом

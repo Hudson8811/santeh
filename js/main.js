@@ -112,9 +112,7 @@ $(document).ready(function () {
   $(".popup-discuss__close").on("click", function () {
     $(".popup-discuss").removeClass("show");
   });
-  $(".open-thankyou-popup").on("click", function () {
-    $(".popup-thankyou").addClass("show");
-  });
+  $(".open-thankyou-popup").on("click", function () {});
   $(".popup-thankyou__close").on("click", function () {
     $(".popup-thankyou").removeClass("show");
   });
@@ -136,4 +134,66 @@ $(document).ready(function () {
     video.play();
   });
   $('[type="tel"]').inputmask("+7 (999) 999 99 99");
+});
+
+$(document).ready(function () {
+  $("#introForm").on("submit", function (e) {
+    e.preventDefault();
+    $.ajax({
+      type: "POST",
+      url: "send_mail.php",
+      data: $(this).serialize(),
+      success: function (response) {
+        $(".popup-thankyou").addClass("show");
+      },
+      error: function () {
+        alert("Ошибка отправки формы.");
+      },
+    });
+  });
+  $("#aboutForm").on("submit", function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "POST",
+      url: "send_mail_about.php",
+      data: $(this).serialize(),
+      success: function (response) {
+        $(".popup-thankyou").addClass("show");
+      },
+      error: function () {
+        alert("Ошибка отправки формы.");
+      },
+    });
+  });
+  $("#sendForm").on("submit", function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "POST",
+      url: "send_mail_call.php",
+      data: $(this).serialize(),
+      success: function (response) {
+        $(".popup-thankyou").addClass("show");
+      },
+      error: function () {
+        alert("Ошибка отправки формы.");
+      },
+    });
+  });
+  $("#discussForm").on("submit", function (e) {
+    e.preventDefault();
+
+    $.ajax({
+      type: "POST",
+      url: "send_mail_discuss.php",
+      data: $(this).serialize(),
+      success: function (response) {
+        $(".popup-thankyou").addClass("show");
+      },
+      error: function () {
+        alert("Ошибка отправки формы.");
+      },
+    });
+  });
 });

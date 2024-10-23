@@ -137,7 +137,7 @@
     max-width: 70.85vw;
   }
 }
-.popup-discuss__filds {
+.popup-discuss__fields {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -146,21 +146,21 @@
   margin-top: 32px;
 }
 @media (max-width: 1919px) {
-  .popup-discuss__filds {
+  .popup-discuss__fields {
     gap: 0.78vw;
     max-width: 31.56vw;
     margin-top: 1.67vw;
   }
 }
 @media (max-width: 768px) {
-  .popup-discuss__filds {
+  .popup-discuss__fields {
     gap: 1.95vw;
     max-width: 78.91vw;
     margin-top: 3.73vw;
   }
 }
 @media (max-width: 360px) {
-  .popup-discuss__filds {
+  .popup-discuss__fields {
     gap: 3vw;
     max-width: 90.91vw;
     margin-top: 4.73vw;
