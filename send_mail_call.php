@@ -1,8 +1,11 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['sendname'];
@@ -12,19 +15,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com'; 
+        $mail->Host = 'smtp.yandex.ru'; 
+		$mail->CharSet = "UTF-8";
         $mail->SMTPAuth = true;
-        $mail->Username = 'your-email@gmail.com';
-        $mail->Password = 'your-email-password';  
+        $mail->Username = 'mail@mail.ru';
+        $mail->Password = 'password'; 
         $mail->SMTPSecure = 'ssl'; 
-        $mail->Port = 465;     
+        $mail->Port = 465;      
 
-        $mail->setFrom('your-email@gmail.com', 'Your Website');
-        $mail->addAddress('recipient@gmail.com'); 
+        $mail->setFrom('mail@mail.ru', 'Your Website'); 
+        $mail->addAddress('mail@mail.ru');
 
         $mail->isHTML(true);
         $mail->Subject = 'Новый запрос на обратный звонок';
-        $mail->Body    = '<b>Имя:</b> ' . $sendname . '<br><b>Телефон:</b> ' . $sendphone;
+        $mail->Body    = '<b>Имя:</b> ' . $name . '<br><b>Телефон:</b> ' . $phone;
 
         $mail->send();
         echo 'success';

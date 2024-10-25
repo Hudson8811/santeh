@@ -1,8 +1,11 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php'; 
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['discussname'];
@@ -13,19 +16,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'smtp.yandex.ru'; 
+		$mail->CharSet = "UTF-8";
         $mail->SMTPAuth = true;
-        $mail->Username = 'your-email@gmail.com';
-        $mail->Password = 'your-email-password'; 
-        $mail->SMTPSecure = 'ssl';
-        $mail->Port = 465;    
+        $mail->Username = 'mail@mail.ru';
+        $mail->Password = 'password'; 
+        $mail->SMTPSecure = 'ssl'; 
+        $mail->Port = 465;      
 
-        $mail->setFrom('your-email@gmail.com', 'Your Website');
-        $mail->addAddress('recipient@gmail.com');
+        $mail->setFrom('mail@mail.ru', 'Your Website'); 
+        $mail->addAddress('mail@mail.ru');
 
         $mail->isHTML(true);
         $mail->Subject = 'Новая заявка на обсуждение';
-        $mail->Body    = '<b>Имя:</b> ' . $discussname . '<br><b>Телефон:</b> ' . $discussphone . '<br><b>Комментарий:</b> ' . $discusscomment;
+        $mail->Body    = '<b>Имя:</b> ' . $name . '<br><b>Телефон:</b> ' . $phone . '<br><b>Комментарий:</b> ' . $comment;
 
         $mail->send();
         echo 'success';
