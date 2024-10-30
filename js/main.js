@@ -197,3 +197,23 @@ $(document).ready(function () {
     });
   });
 });
+$(document).ready(function($) {
+  $("form button").on("click", function(event) {
+      let isValid = true;
+      
+      $(this).closest('form').find("input[required]").each(function() {
+          if ($(this).val().trim() === "") {
+              $(this).css("border", "2px solid red");
+              isValid = false;
+          } else {
+              $(this).css("border", "");
+          }
+      });
+      $('input').on('focus', function() {
+        $(this).css("border", "");
+      });
+      if (!isValid) {
+          event.preventDefault();
+      }
+  });
+});
