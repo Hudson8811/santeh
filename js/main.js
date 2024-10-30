@@ -82,7 +82,7 @@ var getfreeswipermob = new Swiper(".get-free-swiper-mob", {
 var teamswiper = new Swiper(".team-swiper", {
   slidesPerView: 1.2,
   breakpoints: {
-    361: {
+    501: {
       slidesPerView: 2.5,
     },
     769: {

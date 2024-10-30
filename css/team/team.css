@@ -19,7 +19,7 @@
     margin: 0 -1.56vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .team__items {
     margin: 8vw -3.61vw 0;
   }
@@ -41,7 +41,7 @@
     padding: 0 1.56vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .team__items .swiper-slide {
     padding: 0 3.61vw;
   }
@@ -63,7 +63,7 @@
     border-radius: 1.95vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .team__item {
     border-radius: 4.95vw;
   }
@@ -103,7 +103,7 @@
     padding: 0 2.73vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .team__name {
     font-size: 5.56vw;
     margin-top: 4.82vw;
@@ -130,7 +130,7 @@
     padding: 0 2.73vw 4.56vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .team__desc {
     font-size: 3.61vw;
     padding: 4vw 5.73vw 4.56vw;

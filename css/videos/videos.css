@@ -15,7 +15,7 @@
     padding-bottom: 17.58vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .videos {
     padding-bottom: 27.58vw;
   }
@@ -36,7 +36,7 @@
     gap: 1.73vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .video-list {
     gap: 1.73vw;
   }
@@ -57,7 +57,7 @@
     border-radius: 0.78vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .video-list .video-item .video-container {
     border-radius: 4.78vw;
   }
@@ -65,7 +65,7 @@
 .video-list .video-item .video-container #player-container {
   padding-top: 54%;
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .video-list .video-item .video-container #player-container {
     padding-top: 63%;
   }

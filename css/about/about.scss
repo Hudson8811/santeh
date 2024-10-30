@@ -29,7 +29,7 @@
       border-radius: 1.95vw;
       padding: 4.7vw 5.21vw 4.4vw 2.7vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       flex: 1 1 100%;
     }
     &:hover {
@@ -41,7 +41,7 @@
       @media (max-width: 1919px) {
         padding: 0 0.52vw;
       }
-      @media (max-width: 360px) {
+      @media (max-width: 500px) {
         flex: 100%;
       }
     }
@@ -62,7 +62,7 @@
       margin-top: -12.7vw;
       padding: 25.09vw 0 8.9vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       padding: 25.09vw 0 15.9vw;
     }
   }
@@ -102,7 +102,7 @@
       margin: 0 auto;
       text-align: center;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       font-size: 3.33vw;
       max-width: 80.85vw;
     }
@@ -190,7 +190,7 @@
       padding-left: 0;
       width: 85%;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       width: 100%;
       gap: 2.78vw;
     }
@@ -209,7 +209,7 @@
       height: 9.64vw;
       padding: 0.36vw 4.46vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       height: 14.17vw;
     }
   }
@@ -235,7 +235,7 @@
       width: 100%;
       height: 9.64vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       height: 14.17vw;
     }
   }
@@ -257,7 +257,7 @@
       text-align: center;
       margin-top: 3vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       font-size: 2.78vw;
       width: 72.21vw;
     }

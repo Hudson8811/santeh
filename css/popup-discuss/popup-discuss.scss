@@ -42,7 +42,7 @@
       border-radius: 1.95vw;
       padding: 9.17vw 4.48vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       width: 94.44vw;
       border-radius: 1.95vw;
       padding: 9.17vw 4vw;
@@ -66,7 +66,7 @@
       width: 5.08vw;
       height: 5.08vw;
     }
-    @media (max-width: 360px){
+    @media (max-width: 500px){
       top: 3.04vw;
       width: 9vw;
       height: 9vw;
@@ -84,7 +84,7 @@
         display: block !important;
       }
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       font-size: 6.11vw;
       margin-bottom: 1.13vw !important;
       span {
@@ -107,7 +107,7 @@
       font-size: 2.6vw;
       max-width: 61.85vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       font-size: 3.33vw;
       max-width: 70.85vw;
     }
@@ -131,7 +131,7 @@
       max-width: 78.91vw;
       margin-top: 3.73vw;
     }
-    @media (max-width: 360px){
+    @media (max-width: 500px){
       gap: 3vw;
       max-width: 90.91vw;
       margin-top: 4.73vw;
@@ -146,7 +146,7 @@
     @media (max-width: 768px) {
       height: 9.64vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       height: 14.17vw;
     }
     > * {
@@ -164,7 +164,7 @@
         padding: 0.52vw 3.13vw;
         font-size: 2.47vw;
       }
-      @media (max-width: 360px) {
+      @media (max-width: 500px) {
         padding: 0.52vw 6.13vw;
         font-size: 3.61vw;
       }
@@ -177,7 +177,7 @@
       @media (max-width: 768px) {
         font-size: 2.47vw;
       }
-      @media (max-width: 360px) {
+      @media (max-width: 500px) {
         font-size: 3.61vw;
       }
     }
@@ -191,7 +191,7 @@
     @media (max-width: 768px) {
       font-size: 2.47vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       font-size: 3.89vw;
     }
   }
@@ -213,7 +213,7 @@
       max-width: 55.21vw;
       margin-top: 3.13vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       font-size: 2.78vw;
       max-width: 74.17vw;
       margin-top: 6.13vw;
@@ -231,7 +231,7 @@
     @media (max-width: 768px) {
       margin-top: 7.51vw;
     }
-    @media (max-width: 360px){
+    @media (max-width: 500px){
       margin-top: 12.51vw;
     }
   }
@@ -250,7 +250,7 @@
       font-size: 3.26vw;
       max-width: 45.82vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       font-size: 4.72vw;
       max-width: 80vw;
     }
@@ -268,7 +268,7 @@
       margin: 0 auto;
       margin-top: 1.04vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       max-width: 100%;
       flex-direction: column;
     }
@@ -286,7 +286,7 @@
         font-size: 2.6vw;
         margin-top: 3.04vw;
       }
-      @media (max-width: 360px) {
+      @media (max-width: 500px) {
         height: 14.17vw;
         flex: 1 1 auto;
         font-size: 3.89vw;

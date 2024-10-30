@@ -9,7 +9,7 @@
   @media (max-width: 1919px) {
     padding: 1.8vw 0;
   }
-  @media (max-width: 360px) {
+  @media (max-width: 500px) {
     padding: 2.22vw 0;
   }
   &__container {
@@ -41,7 +41,7 @@
       margin-left: 3.13vw;
       font-size: 2.34vw;
     }
-    @media (max-width: 360px){
+    @media (max-width: 500px){
         display: none;
     }
   }
@@ -50,7 +50,7 @@
     @media (max-width: 1919px) {
       margin-left: 2.45vw;
     }
-    @media (max-width: 360px){
+    @media (max-width: 500px){
         display: none;
     }
   }
@@ -71,7 +71,7 @@
     @media (max-width: 768px){
         font-size: 2.08vw;
     }
-    @media (max-width: 360px){
+    @media (max-width: 500px){
         font-size: 3.33vw;
     }
     a {

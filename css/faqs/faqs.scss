@@ -24,7 +24,7 @@
     padding-bottom: 26.23vw;
     border-radius: 5.21vw 5.21vw 0 0;
   }
-  @media (max-width: 360px){
+  @media (max-width: 500px){
       padding-bottom: 24.23vw;
   }
   &__container {
@@ -74,7 +74,7 @@
         font-size: 2.86vw;
       }
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       height: 14.17vw;
       margin-top: 3.56vw;
       &.mob-el {
@@ -96,7 +96,7 @@
       flex: 1 1 auto;
       margin-top: 4.8vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       gap: 2.4vw;
     }
   }
@@ -125,7 +125,7 @@
       font-size: 3.26vw;
       padding: 4.15vw 3.3vw 4.3vw 5.28vw;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 500px) {
       padding: 5.15vw 3.3vw 5.3vw 5.28vw;
     }
     cursor: pointer;

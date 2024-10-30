@@ -25,7 +25,7 @@
     border-radius: 0 0 5.21vw 5.21vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .stages {
     padding-top: 15.81vw;
   }
@@ -94,7 +94,7 @@
     padding: 7vw 7.81vw 5.8vw 6.19vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__column {
     border-bottom: 0.63vw solid #0575e6;
     padding: 7vw 7vw 5.8vw 6.2vw;
@@ -122,7 +122,7 @@
     font-size: 2.47vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__number {
     font-size: 3.33vw;
   }
@@ -144,7 +144,7 @@
     margin-top: 4.52vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__title {
     font-size: 5.56vw;
     padding-right: 10vw;
@@ -172,7 +172,7 @@
     margin-bottom: 2.24vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__text {
     font-size: 3.61vw;
     margin-top: 11.94vw;
@@ -235,7 +235,7 @@
     margin-top: 6vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__btns {
     flex-direction: column;
     gap: 1.67vw;
@@ -257,7 +257,7 @@
     height: 8.2vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__btn {
     width: 100%;
     border-radius: 1.67vw;
@@ -286,7 +286,7 @@
     height: 8.18vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__btn-call {
     width: 100%;
     border-radius: 1.67vw;
@@ -328,7 +328,7 @@
     height: 28.7vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages__digit {
     height: 48.7vw;
     bottom: 30vw;
@@ -354,7 +354,7 @@
     right: 10.65vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages:nth-child(1) .item-stages__digit {
     bottom: 33vw;
     width: 19.06vw;
@@ -390,7 +390,7 @@
     right: 1.88vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages:nth-child(2) .item-stages__digit {
     bottom: 16vw;
     width: 30.06vw;
@@ -417,7 +417,7 @@
     width: 25.02vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages:nth-child(3) .item-stages__digit {
     bottom: 16vw;
     width: 34.06vw;
@@ -444,7 +444,7 @@
     width: 23.33vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-stages:nth-child(4) .item-stages__digit {
     bottom: 16vw;
     width: 41.06vw;

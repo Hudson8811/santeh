@@ -16,7 +16,7 @@
     padding: 0 9vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .works__title {
     padding: 0;
   }
@@ -68,7 +68,7 @@
     padding: 1.89vw 2.6vw 1.89vw 4.3vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works {
     border-radius: 2.78vw;
   }
@@ -81,7 +81,7 @@
     justify-content: space-between;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__container {
     flex-direction: column;
   }
@@ -125,7 +125,7 @@
     font-size: 3.78vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__title {
     font-size: 5vw;
   }
@@ -149,7 +149,7 @@
     margin-top: 1.43vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__text {
     font-size: 3.33vw;
   }
@@ -177,7 +177,7 @@
     font-size: 2.21vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__loc {
     font-size: 3.33vw;
     margin-top: 3.61vw;
@@ -209,7 +209,7 @@
     min-height: 2.6vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__loc::before {
     width: 5vw;
     min-width: 5vw;
@@ -238,7 +238,7 @@
     margin-top: 2.89vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__deadline {
     font-size: 3.33vw;
     margin-top: 3.61vw;
@@ -270,7 +270,7 @@
     min-height: 2.6vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__deadline::before {
     width: 5vw;
     min-width: 5vw;
@@ -296,14 +296,14 @@
     height: 61.98vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__images {
     width: 100%;
     height: auto;
     order: -1;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__images .swiper .swiper-slide {
     height: 63.89vw;
     border-radius: 2.78vw;
@@ -316,7 +316,7 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__images .swiper .swiper-slide img {
     position: absolute;
     top: 0;
@@ -350,7 +350,7 @@
     height: 5.34vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__swiper-arrow {
     width: 11.39vw;
     height: 11.39vw;
@@ -375,7 +375,7 @@
     height: 1.56vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__swiper-arrow img {
     width: 3.33vw;
     height: 3.33vw;
@@ -395,7 +395,7 @@
     left: 1.04vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__swiper-arrow-prev {
     left: 3.33vw;
   }
@@ -413,7 +413,7 @@
     right: 1.04vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .item-works__swiper-arrow-next {
     right: 3.33vw;
   }

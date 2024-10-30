@@ -80,7 +80,7 @@ body {
     transition: all 0.3s ease 0s;
 }
 .btn-blue:hover {
-    background-color: #0F7CB0;
+    background-color: #0f7cb0;
 }
 .btn-gradient {
     color: #ffffff;
@@ -289,28 +289,28 @@ input.general-input ::placeholder {
     }
     .btn-transparent {
         border: 0.13vw solid #ffffff;
-        font-size: 2.60vw;
-        padding: 2.60vw 1.82vw;
-        border-radius: 1.30vw;
+        font-size: 2.6vw;
+        padding: 2.6vw 1.82vw;
+        border-radius: 1.3vw;
     }
     .btn-green {
-        border-radius: 1.30vw;
-        font-size: 2.60vw;
+        border-radius: 1.3vw;
+        font-size: 2.6vw;
     }
     .btn-blue {
-        border-radius: 1.30vw;
-        font-size: 2.60vw;
+        border-radius: 1.3vw;
+        font-size: 2.6vw;
     }
     .btn-gradient {
-        font-size: 2.60vw;
-        border-radius: 1.30vw;
+        font-size: 2.6vw;
+        border-radius: 1.3vw;
     }
     input.general-input {
-        border-radius: 1.30vw;
-        font-size: 2.60vw;
+        border-radius: 1.3vw;
+        font-size: 2.6vw;
     }
     input.general-input ::placeholder {
-        font-size: 2.60vw;
+        font-size: 2.6vw;
     }
 
     .media {
@@ -322,7 +322,7 @@ input.general-input ::placeholder {
     }
 
     .subtitle {
-        font-size: 2.60vw;
+        font-size: 2.6vw;
         margin-bottom: 1.69vw;
     }
     .title-h2 {
@@ -345,7 +345,7 @@ input.general-input ::placeholder {
     }
     .item-general {
         p {
-            font-size: 2.60vw;
+            font-size: 2.6vw;
         }
     }
 
@@ -356,7 +356,7 @@ input.general-input ::placeholder {
         transform: translate(0%, -120%);
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
     .container {
         width: 100%;
         padding: 0 5.56vw;
@@ -368,22 +368,22 @@ input.general-input ::placeholder {
         border: 0.28vw solid #ffffff;
         font-size: 3.61vw;
         padding: 3.61vw 1.82vw;
-        border-radius: 1.30vw;
+        border-radius: 1.3vw;
     }
     .btn-green {
-        border-radius: 1.30vw;
+        border-radius: 1.3vw;
         font-size: 3.61vw;
     }
     .btn-blue {
-        border-radius: 1.30vw;
+        border-radius: 1.3vw;
         font-size: 3.61vw;
     }
     .btn-gradient {
         font-size: 3.61vw;
-        border-radius: 1.30vw;
+        border-radius: 1.3vw;
     }
     input.general-input {
-        border-radius: 1.30vw;
+        border-radius: 1.3vw;
         font-size: 3.61vw;
     }
     input.general-input ::placeholder {
@@ -434,19 +434,21 @@ input.general-input ::placeholder {
     }
 }
 
-
-
 .desk-el {
     display: block;
 }
 .mob-el {
     display: none;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .desk-el {
         display: none;
     }
     .mob-el {
         display: block;
     }
+}
+
+.error {
+    border: 2px solid red; /* Red border for error */
 }

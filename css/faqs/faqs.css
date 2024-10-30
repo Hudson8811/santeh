@@ -23,7 +23,7 @@
     border-radius: 5.21vw 5.21vw 0 0;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .faqs {
     padding-bottom: 24.23vw;
   }
@@ -88,7 +88,7 @@
     font-size: 2.86vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .faqs__btn {
     height: 14.17vw;
     margin-top: 3.56vw;
@@ -116,7 +116,7 @@
     margin-top: 4.8vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .faqs__items {
     gap: 2.4vw;
   }
@@ -157,7 +157,7 @@
     padding: 4.15vw 3.3vw 4.3vw 5.28vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .faqs__question {
     padding: 5.15vw 3.3vw 5.3vw 5.28vw;
   }

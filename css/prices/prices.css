@@ -85,7 +85,7 @@
     height: 7.94vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .prices__icon {
     width: 10.56vw;
     height: 10.56vw;
@@ -126,7 +126,7 @@
     margin-bottom: 1.43vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .prices__name {
     font-size: 4.44vw;
   }
@@ -146,7 +146,7 @@
     font-size: 3.13vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .prices__price {
     font-size: 4.17vw;
   }
@@ -175,7 +175,7 @@
     border: none;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .prices__bottom {
     margin-top: 4.33vw;
     height: 25vw;
@@ -201,7 +201,7 @@
     font-size: 2.99vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .prices__btn {
     height: 14.17vw;
     font-size: 3.89vw;
@@ -231,7 +231,7 @@
     margin-top: 4vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .prices__bottom-text {
     display: none;
   }

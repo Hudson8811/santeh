@@ -41,7 +41,7 @@
     padding: 4.7vw 5.21vw 4.4vw 2.7vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .about__item {
     flex: 1 1 100%;
   }
@@ -58,7 +58,7 @@
     padding: 0 0.52vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .about__item-wrapper {
     flex: 100%;
   }
@@ -83,7 +83,7 @@
     padding: 25.09vw 0 8.9vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .about__blue {
     padding: 25.09vw 0 15.9vw;
   }
@@ -136,7 +136,7 @@
     text-align: center;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .form-about__text {
     font-size: 3.33vw;
     max-width: 80.85vw;
@@ -241,7 +241,7 @@
     width: 85%;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .form-about__fields {
     width: 100%;
     gap: 2.78vw;
@@ -264,7 +264,7 @@
     padding: 0.36vw 4.46vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .form-about__input {
     height: 14.17vw;
   }
@@ -300,7 +300,7 @@
     height: 9.64vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .form-about__fields-btn {
     height: 14.17vw;
   }
@@ -328,7 +328,7 @@
     margin-top: 3vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .form-about__fields-text {
     font-size: 2.78vw;
     width: 72.21vw;

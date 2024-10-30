@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 998;
   width: 100%;
   height: 100%;
   display: flex;
@@ -48,7 +48,7 @@
     padding: 9.17vw 4.48vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__container {
     width: 94.44vw;
     border-radius: 1.95vw;
@@ -78,7 +78,7 @@
     height: 5.08vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__close-btn {
     top: 3.04vw;
     width: 9vw;
@@ -102,7 +102,7 @@
     display: block !important;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__title {
     font-size: 6.11vw;
     margin-bottom: 1.13vw !important;
@@ -131,7 +131,7 @@
     max-width: 61.85vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__text {
     font-size: 3.33vw;
     max-width: 70.85vw;
@@ -159,7 +159,7 @@
     margin-top: 3.73vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__fields {
     gap: 3vw;
     max-width: 90.91vw;
@@ -180,7 +180,7 @@
     height: 9.64vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__item {
     height: 14.17vw;
   }
@@ -205,7 +205,7 @@
     font-size: 2.47vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__item input {
     padding: 0.52vw 6.13vw;
     font-size: 3.61vw;
@@ -233,7 +233,7 @@
     font-size: 2.47vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__item input::-moz-placeholder {
     font-size: 3.61vw;
   }
@@ -255,7 +255,7 @@
     font-size: 2.47vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__btn {
     font-size: 3.89vw;
   }
@@ -283,7 +283,7 @@
     margin-top: 3.13vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__text-bottom {
     font-size: 2.78vw;
     max-width: 74.17vw;
@@ -307,7 +307,7 @@
     margin-top: 7.51vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__footer {
     margin-top: 12.51vw;
   }
@@ -332,7 +332,7 @@
     max-width: 45.82vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__footer-title {
     font-size: 4.72vw;
     max-width: 80vw;
@@ -356,7 +356,7 @@
     margin-top: 1.04vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__footer-btns {
     max-width: 100%;
     flex-direction: column;
@@ -381,7 +381,7 @@
     margin-top: 3.04vw;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .popup-discuss__footer-btns > * {
     height: 14.17vw;
     flex: 1 1 auto;
