@@ -196,8 +196,6 @@ $(document).ready(function () {
       },
     });
   });
-});
-$(document).ready(function($) {
   $("form button").on("click", function(event) {
       let isValid = true;
       
